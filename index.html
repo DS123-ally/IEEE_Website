@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IEEE Committee — Member Introductions</title>
+    <meta name="description" content="Meet the IEEE committee members. Learn about their roles and how to contact them.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#content">Skip to content</a>
+    <div class="bg-anim" aria-hidden="true">
+        <div class="bg-element-1"></div>
+        <div class="bg-element-2"></div>
+    </div>
+
+    <!-- Header with Navbar -->
+    <header class="site-header" role="banner">
+        <div class="container header-inner">
+
+            <!-- Branding (Left Side) -->
+            <div class="branding">
+                <img src="Logo.png" alt="IEEE logo" class="logo" onerror="this.style.display='none'">
+                <div class="brand-text">
+                    <h1 class="site-title">AISSMS IEEE Student Branch Committee</h1>
+                    <p class="site-subtitle">Member Introductions</p>
+                </div>
+            </div>
+
+            <!-- Navigation (Right Side) -->
+            <nav class="site-nav">
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#members">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#events">Event</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="content" role="main">
+        <section class="hero" id="hero" aria-label="Hero">
+            <div class="hero-bg" aria-hidden="true"></div>
+            <div class="container hero-inner">
+                <h1 class="hero-title">IEEE Committee</h1>
+                <p class="hero-tag">Uniting Ideas, Building Futures.</p>
+                <div class="hero-ctas">
+                    <a href="#members" class="btn primary">Meet Our Team</a>
+                    <a href="#about" class="btn">About Us</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="intro container" id="about">
+            <h2>About the Committee</h2>
+            <p>We organize technical initiatives, events, and community programs to empower learners and innovators.</p>
+            <div class="about-cards">
+                <article class="about-card reveal">
+                    <div class="about-icon" aria-hidden="true">🌟</div>
+                    <h3>Vision</h3>
+                    <p>Inspire innovation and leadership through technology and collaboration.</p>
+                </article>
+                <article class="about-card reveal">
+                    <div class="about-icon" aria-hidden="true">🚀</div>
+                    <h3>Mission</h3>
+                    <p>Create inclusive opportunities for hands-on learning and impactful projects.</p>
+                </article>
+                <article class="about-card reveal">
+                    <div class="about-icon" aria-hidden="true">🤝</div>
+                    <h3>Values</h3>
+                    <p>Community, curiosity, integrity, and a passion for open knowledge.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="toolbar container" aria-label="Member filters">
+            <div class="filters">
+                <button class="chip is-active" data-filter="featured" aria-pressed="true">Featured</button>
+                <button class="chip" data-filter="all">All</button>
+                <button class="chip" data-filter="chairperson">Chairperson</button>
+                <button class="chip" data-filter="vice_chair">Vice-Chair</button>
+                <button class="chip" data-filter="joint_secretary">Joint Secretary</button>
+                <button class="chip" data-filter="extra_curricular_secretary">Extra Curricular Secretary</button>
+                <button class="chip" data-filter="treasurer">Treasurer</button>
+                <button class="chip" data-filter="technical_secretary">Technical Secretary</button>
+                <button class="chip" data-filter="technical_heads">Technical Heads</button>
+                <button class="chip" data-filter="content_heads">Content Heads</button>
+                <button class="chip" data-filter="external_relations_heads">External Relations Heads</button>
+                <button class="chip" data-filter="event_management_heads">Event Management Heads</button>
+                <button class="chip" data-filter="media_heads">Media Heads</button>
+            </div>
+            <div class="results-count" aria-live="polite"></div>
+        </section>
+
+        <h2 id="members" class="container">Our Members</h2>
+        <section id="members-root" class="groups container" aria-label="Committee groups">
+        </section>
+
+        <!-- Placeholder Events Section -->
+        <section id="events" class="container">
+            <h2>Our Events</h2>
+            <p>Stay tuned for upcoming IEEE events and activities.</p>
+        </section>
+
+        <section id="contact" class="contact reveal container">
+            <h2>Join Us</h2>
+            <p>Want to be part of our committee?</p>
+            <a class="btn primary" href="https://forms.gle/example" target="_blank" rel="noopener">Apply Now</a>
+            <div class="socials">
+                <a href="#" aria-label="Instagram">📸</a>
+                <a href="#" aria-label="LinkedIn">💼</a>
+                <a href="#" aria-label="Twitter">🐦</a>
+                <a href="#" aria-label="Email">✉️</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer" role="contentinfo">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> IEEE Student Branch — All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
